@@ -14,5 +14,6 @@ public class calculator {
             System.out.println("result is :"+(s+i));
 
 
+
         }
 }
