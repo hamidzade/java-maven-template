@@ -1,11 +1,13 @@
 package app;
 
 public class HelloWorldApp {
-
-  public static void main(String[] args) {
-    System.out.println("Hello World");
-    System.out.println("Hello World");
-    System.out.println("Hello World");
+   Scanner scan = new Scanner(System.in);
+    System.out.print("first number:");
+    int s = scan.nextInt();
+    System.out.print("second number :");
+    int i = scan.nextInt();
+    System.out.println("result is :"+(s+i));
+  }
   }
 
 }
